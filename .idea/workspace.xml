@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d966be1-8bb2-4582-a33d-dd03839d8658" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Education.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/HeroSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Links.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/TagsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="4d966be1-8bb2-4582-a33d-dd03839d8658" name="Changes" comment="Preview" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,8 +91,17 @@
       <workItem from="1731587617924" duration="8282000" />
       <workItem from="1731682300329" duration="3967000" />
       <workItem from="1731704782941" duration="2905000" />
-      <workItem from="1731762754306" duration="1975000" />
+      <workItem from="1731762754306" duration="2427000" />
     </task>
+    <task id="LOCAL-00001" summary="Preview">
+      <option name="closed" value="true" />
+      <created>1731765341139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731765341139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,5 +109,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.key" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <MESSAGE value="Preview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preview" />
   </component>
 </project>
