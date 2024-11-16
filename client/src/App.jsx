@@ -1,34 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Outlet } from "react-router-dom"
+import Navbar from "./components/Navbar.jsx"
+import HeroSection from "./components/HeroSection.jsx"
+import TagsContainer from "./components/TagsContainer.jsx"
+import Education from "./components/Education.jsx"
+import Contact from "./components/Contact.jsx"
+import Footer from "./components/Footer.jsx"
+import Projects from "./components/Projects.jsx"
+
+const skills = ['Communication', 'Problem Solving', 'Team Work', 'Adaptability']
+const technology = ['Tailwind', 'JavaScript', 'React', 'NodeJS', 'MongoDB', 'Python', 'SQL', 'Flask']
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-950 h-screen w-screen relative text-slate-200">
+          <div className="absolute inset-0 bg-slate-950/60 overflow-y-scroll">
+              <div className="bg-[url('/graph.svg')] bg-repeat min-h-screen relative">
+                  <div className="h-screen w-screen overflow-y-scroll">
+                      <div className="mx-auto max-w-screen-md px-4 py-10 sm:px-2 space-y-20">
+                          <Navbar/>
+                          <HeroSection/>
+                          <TagsContainer title="Technologies" set={technology}/>
+                          <TagsContainer title="Skills" set={skills}/>
+                          <Education/>
+                          <Projects />
+                          <Contact />
+                          <Footer />
+                          <Outlet/>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
   )
 }
 
