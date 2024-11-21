@@ -20,6 +20,12 @@ const Projects = () => {
             <h2 className="text-3xl font-bold">Projects</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 mt-6 gap-6">
                 <ProjectCard
+                    title="Tradiz"
+                    image="/tradiz.png"
+                    github="https://github.com/violentanirudh/tradiz"
+                    preview="https://tradiz.vercel.app"
+                />
+                <ProjectCard
                     title="FocusLearn"
                     image="/focuslearn.png"
                     github="https://github.com/violentanirudh/focuslearn"
