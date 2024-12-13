@@ -8,11 +8,8 @@ const Footer = () => {
                 <Links to="https://instagram.com/violentanirudh" variant='icon'>
                     <Instagram />
                 </Links>
-                <Links to="https://www.instagram.com/violentanirudh" variant='icon'>
+                <Links to="https://www.linkedin.com/in/professionalanirudh/" variant='icon'>
                     <Linkedin />
-                </Links>
-                <Links to="https://www.instagram.com/violentanirudh" variant='icon'>
-                    <Twitter />
                 </Links>
             </div>
             <p>Made By Anirudh Singh.</p>
